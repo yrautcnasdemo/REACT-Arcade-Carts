@@ -5,6 +5,17 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const games = [
+    {title: 'Space-Invaders', year: '1978',id: 1},
+    {title: 'Pac-Man', year: '1980',id: 2},
+    {title: 'Dragon\'s Lair ', year: '1983',id: 3},
+    {title: 'OutRun', year: '1986',id: 4},
+    {title: 'Double-Dragon II', year: '1988',id: 5},
+    {title: 'Golden Axe', year: '1989',id: 6},
+    {title: 'Street-Fighter II', year: '1991',id: 7},
+    {title: 'Super Ghouls \'n Ghosts', year: '1991',id: 8},
+    {title: 'Super Metroid', year: '1994',id: 9}
+  ]
 
   return (
     <>
