@@ -27,27 +27,42 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Time Warp Arcade</h1>
       <div className="card">
+        <div>
+          <img src="assets/images/design/insert_coin.png" alt="" />
+        </div>
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Insert Coin {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
 
     <div className='pannelbtn'>
-      <button className='button2'>
+      <button onClick={() => setCount((count) => count - 1)} className='button2'>
         Card x1
       </button>
-      <button className='button2'>
-        Booster x5
+      <button onClick={() => setCount((count) => count - 3)} className='button2'>
+        Booster x3
       </button>
     </div>
+
+    <div className='pannelCarts'>
+      <div className='cartsPlace'>
+      </div>
+
+      <div className='cartsPlace'>
+      </div>
+
+      <div className='cartsPlace'>
+      </div>
+    </div>
+
+    <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+    </p>
     </>
   )
 }
