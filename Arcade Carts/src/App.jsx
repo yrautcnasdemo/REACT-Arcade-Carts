@@ -35,9 +35,6 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           Insert Coin {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
 
     <div className='pannelbtn'>
