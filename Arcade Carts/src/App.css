@@ -1,12 +1,29 @@
 #root {
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
   text-align: center;
+}
+
+header {
+  background-color: #1e1e1e;
+  border-bottom: 2px solid rgba(255, 217, 0, 0.61);
+  filter: drop-shadow(0 0 0.25rem gold);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 100px;
 }
 
 .logo {
   height: 6em;
-  padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -15,6 +32,30 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/*Index*/
+.cardslist{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.insertPanelcoin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.pull{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 @keyframes logo-spin {
@@ -32,10 +73,29 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
 
 .read-the-docs {
   color: #888;
+}
+
+
+
+/*Insert coins JSX*/
+
+.panelcoins{
+  margin-top: 0px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  border-top: 2px solid rgba(255, 217, 0, 0.61);
+  filter: drop-shadow(0 0 0.25rem gold);
+  background-color: #1e1e1e;
+  width: 100%;
+  height: 130px;
+  margin-top: 50px;
 }
