@@ -1,9 +1,11 @@
-import { useState } from 'react'
 import './App.css'
-import Game from './composents/Game'
-import Footer from './composents/Footer'
-import Insertcoins from './composents/Insertcoins'
 import Header from './composents/Header';
+import Insertcoins from './composents/Insertcoins'
+import Game from './composents/Game'
+import Eachcards from './composents/Eachcards'
+import Footer from './composents/Footer'
+
+
 
 
 
@@ -11,8 +13,9 @@ export default function App() {
     return (
       <>
         <Header />
-        <Insertcoins />
         <Game />
+        <Eachcards />
+        <Insertcoins />
         <Footer />
       </>
     );

@@ -6,7 +6,6 @@ export default function App() {
 
     return (
     <>
-        <h1>Time Warp Zone</h1>
         <div className='insertPanelcoin'>
             <div>
                 <button onClick={() => setCount((count) => count + 1)}>
