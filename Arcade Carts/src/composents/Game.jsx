@@ -1,14 +1,3 @@
-
-
-
-const gameImg = {
-    img1: 'https://miarcade.com/wp-content/uploads/2023/03/space-invaders-arcade.png',
-    img2: 'https://www.fizzcreations.com/wp-content/uploads/2020/01/PAC-MAN-Banner.jpg',
-    img3: 'https://i.ytimg.com/vi/f7kpgiLqbWc/maxresdefault.jpg',
-    img4: 'https://www.nintendo.com/eu/media/images/06_screenshots/games_5/virtual_console_wii_u_3/wiiuvc_superghoulsnghosts/WiiUVC_SuperGhoulsnGhosts_01.png',
-};
-
-
 const Game = () => {
     return (
         <div>

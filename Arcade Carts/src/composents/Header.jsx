@@ -1,14 +1,10 @@
-const logo = {
-    imagelogo: 'https://forums.launchbox-app.com/uploads/monthly_2020_10/arcade_all-games.png.89ce764881eb6f5614653093dcc8ea05.png',
-};
+import ArcadeLogo from './ArcadeLogo';
 
 const Header = () => {
     return (
         <div>
             <header>
-                <div>
-                    <img className='logo' src={logo.imagelogo} alt="logoArcade" />
-                </div>
+                <ArcadeLogo />
                 <nav>
                     <a href="">Accueil</a>
                     <a href="">Cartes</a>
